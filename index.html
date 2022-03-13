@@ -19,22 +19,27 @@
             <i class="fas fa-paper-plane"></i>
             <div class="input-group">
                 <label>Full Name</label>
-                <input type="text" placeholder="Enter Your Name">
+                <input onkeyup="validateName()" id="contact-name" type="text" placeholder="Enter Your Name">
+                <span id="name-error"></span>
             </div>
 
             <div class="input-group">
-                <label>Phoen Number</label>
+                <label>Phone Number</label>
                 <input type="text" placeholder="+088">
+                <span id="phone-error"></span>
             </div>
             <div class="input-group">
                 <label>Email address</label>
                 <input type="text" placeholder="Enter Email">
+                <span id="email-error"></span>
             </div>
             <div class="input-group">
                 <label>Your Comments!</label>
                 <textarea rows="5" placeholder="Enter Your Comment Here..."></textarea>
+                <span id="comment-error"></span>
             </div>
             <button>Submit</button>
+            <span id="submit-error"></span>
         </form>
     </div>
 
