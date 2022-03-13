@@ -46,5 +46,24 @@
 .input-group input, .input-group textarea{
     flex-basis: 68%;
     background: transparent;
-    
+    border: 0;
+    outline: 0;
+    padding:  10px 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    font-size: 16px;
+}
+::placeholder{
+    font-size: 15px;
+}
+form button{
+    background: #141a34;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.7);
+    padding: 10px 40px;
+    outline: 0;
+    display: block;
+    cursor: pointer;
+    margin: 30px auto 10px;
 }
